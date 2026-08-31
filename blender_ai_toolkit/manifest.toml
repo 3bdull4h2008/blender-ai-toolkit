@@ -1,0 +1,14 @@
+schema_version = "1.0.0"
+
+id = "blender_ai_toolkit"
+version = "2.1.1"
+name = "AI Toolkit"
+tagline = "AI-powered 3D model generation, PBR materials, HDRI, scene composition, and LLM chat"
+maintainer = "AI Toolkit Contributors"
+type = "add-on"
+tags = ["3D View", "Modeling", "Import-Export"]
+blender_version_min = "4.2.0"
+
+[permissions]
+files = "Import AI-generated 3D models, images, and materials"
+network = "Connect to AI provider APIs (OpenAI, Anthropic, Meshy, Tripo, etc.)"
